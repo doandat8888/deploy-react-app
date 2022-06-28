@@ -1,0 +1,102 @@
+.login-background {
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,rgba(253,187,45,1) 100%);
+    padding: 32px 0px;
+
+    .login-container {
+        width: 400px;
+        height: 540px;
+        margin: 0 auto;
+        padding: 16px;
+        border-radius: 12px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+
+        .login-content-text {
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            height: 32px;
+        }
+
+        .login-content-username,
+        .login-content-password {
+            height: 20px;
+            .login-content-password-input {
+                display: flex;
+            }
+            .login-content-password-input-icon {
+                position: relative;
+                right: 24px;
+                top: 12px;
+                cursor: pointer;
+            }
+        }
+
+        .login-confirm {
+            display: flex;
+            justify-content: center;
+            .login-btn {
+                padding: 2px 140px;
+                border-radius: 20px;
+                border: none;
+                outline: none;
+                background: rgb(34,193,195);
+                background: linear-gradient(135deg, rgba(34,193,195,1) 0%,rgba(253,187,45,1) 100%);
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+                height: 32px;
+            }
+    
+        }
+
+        .sign-in-with {
+            text-align: center;
+            .sign-in-icons {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                padding: 0px;
+
+                .sign-in-icon {
+                    font-size: 40px;
+                    margin: 0px 8px;
+                    border-radius: 50%;
+                    cursor: pointer;
+
+                    .sign-in-icon-google {
+                        color: red;
+                    }
+
+                    .sign-in-icon-twitter {
+                        color: rgb(34,193,195);
+                    }
+
+                    .sign-in-icon-facebook {
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+
+        
+
+        
+        .form-control {
+            font-size: 16px;
+        }
+    }
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+

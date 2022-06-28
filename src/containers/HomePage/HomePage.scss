@@ -1,0 +1,40 @@
+//reset slick-slider-css
+.slick-prev {
+    border: 2px solid #d7d7d7 !important;
+    //position: relative !important;
+    left: -20px !important;
+    z-index: 1 !important;
+    height: 48px !important;
+    width: 44px !important;
+    margin: 0 auto;
+}
+
+.slick-prev:before {
+    font-family: "FontAwesome" !important;
+    content: "\f060" !important;
+    position: absolute !important;
+    top: 25%;
+    left: 25%;
+    color: #959595 !important;
+}
+
+.slick-next {
+    border: 2px solid #d7d7d7 !important;
+    right: -20px !important;
+    z-index: 1 !important;
+    height: 48px !important;
+    width: 44px !important;
+}
+
+.slick-next:before {
+    font-family: "FontAwesome" !important;
+    content: "\f061" !important;
+    position: absolute !important;
+    top: 25%;
+    left: 25%;
+    color: #959595 !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}

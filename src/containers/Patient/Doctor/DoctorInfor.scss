@@ -1,0 +1,64 @@
+.doctor-infor-container {
+    margin: 0 12px;
+    .doctor-infor-container-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        .doctor-infor-container-header-left {
+            margin-right: 20px;
+            .doctor-infor-container-header-left-img {
+                border-radius: 50%;
+                width: 120px;
+                height: 120px;
+            }
+            .doctor-infor-container-header-left-button {
+                border: none;
+                outline: none;
+                background-color: transparent;
+                // position: relative;
+                // top: 4px;
+                // left: 8px;
+                margin: 16px 24px;
+                .doctor-infor-container-header-left-button-content {
+                    text-decoration: none;
+                    letter-spacing: 0.5px;
+                    font-weight: bold;
+                    color: #45c3d2;
+                }
+            }
+            
+        }
+        .doctor-infor-container-header-right {
+            .doctor-infor-container-header-right-top p{
+                font-size: 18px;
+                font-weight: bold;
+                color: #45c3d2;
+            }
+            .doctor-infor-container-header-right-bottom {
+                letter-spacing: 1px;
+                .doctor-infor-container-header-right-bottom-position {
+                    display: flex;
+                    .doctor-infor-container-header-right-bottom-position-icon {
+                        margin-right: 4px;
+                    }
+                }
+            }     
+        }
+    }
+    // .doctor-infor-container-detail {
+    //     margin-top: 60px;
+    //     padding: 20px 100px;
+    //     background-color: #f9f9f9;
+    //     border-top: 1px solid #ccc;
+    // }
+    // .doctor-infor-container-schedule {
+    //     display: flex;
+    //     margin: 0 100px;
+    //     .doctor-infor-container-schedule-left {
+    //         width: 50%;
+    //     }
+    //     .doctor-infor-container-schedule-right {
+    //         width: 50%;
+    //     }
+    // }
+}

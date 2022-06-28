@@ -1,0 +1,89 @@
+.section-handbook {
+    height: 302px !important;
+    background: #f5f5f5;
+    margin: 0 100px;
+    margin-bottom: 60px !important;
+
+    .handbook-content-title {
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    .handbook-content-body {
+        width: 556px !important;
+        height: 188px !important;
+        display: flex !important;
+        .handbook-content-body-img {
+            width: 50%;
+            height: 90%;
+            cursor: pointer;
+        }
+        .handbook-content-body-text {
+            margin-top: 8px;
+            margin-left: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .handbook-content-body-text:hover {
+            color: #45c3d2;
+        }
+    }
+   
+}
+
+//reset slick-slider-css
+.slick-prev {
+    border: 2px solid #d7d7d7 !important;
+    //position: relative !important;
+    left: -20px !important;
+    z-index: 1 !important;
+    height: 48px !important;
+    width: 44px !important;
+    margin: 0 auto;
+}
+
+.slick-prev:before {
+    font-family: "FontAwesome" !important;
+    content: "\f060" !important;
+    position: absolute !important;
+    top: 25%;
+    left: 25%;
+    color: #959595 !important;
+}
+
+.slick-next {
+    border: 2px solid #d7d7d7 !important;
+    right: -20px !important;
+    z-index: 1 !important;
+    height: 48px !important;
+    width: 44px !important;
+}
+
+.slick-next:before {
+    font-family: "FontAwesome" !important;
+    content: "\f061" !important;
+    position: absolute !important;
+    top: 25%;
+    left: 25%;
+    color: #959595 !important;
+}
+
+@media only screen and (max-width: 750px){
+    .section-handbook {
+        margin: 8px;
+        .handbook-content-body {
+            width: 100%;
+            .handbook-content-body-img {
+                width: 36%;
+                padding-right: 8px;
+                height: 100px
+            }
+            .handbook-content-body-text {
+                display: none
+            }
+        }
+    }
+}
+

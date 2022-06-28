@@ -1,0 +1,33 @@
+.manage-schedule-container {
+    .manage-schedule-container-title {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+    .pick-hour-container {
+        height: auto;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px 12px;
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        .pick-hour-time {
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            text-align: center;
+            cursor: pointer;
+        }
+        .pick-hour-time-selected {
+            background-color: orange;
+            color: #fff;
+        }
+    }
+}

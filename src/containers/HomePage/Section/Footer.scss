@@ -1,0 +1,29 @@
+.footer-container {
+    padding: 10px 100px;
+    background-color: #64b9e5;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    .footer-container-left {
+        color: #fff;
+    }
+    .footer-container-right {
+        .footer-container-right-icon {
+            line-height: 58px;
+            font-size: 40px;
+            margin-right: 8px;
+        }
+        .fb {
+            color: #0e8cf1;
+        }
+        .ytb {
+            color: #cc191e;
+        }
+    }
+}
+
+@media only screen and (max-width: 1058px){
+    .footer-container {
+        padding: 10px 40px;
+    }
+}

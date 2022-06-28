@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.home-header-banner {
+    background: url('https://bookingcare.vn/assets/anh/bookingcare-cover-4.jpg') center no-repeat;
+    background-size: cover;
+    .home-header-banner-search {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(255, 255, 255, 0.1));
+        color: #333;
+        padding: 45px 0;
+        text-align: center;
+        .home-header-banner-search-top{
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 1px 1px 1px #333;
+            .home-header-banner-search-top-content {
+                line-height: 1.4;
+            }
+            line-height: 1.4;
+        }
+        .home-header-banner-search-center {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            height: 50px;
+            width: 40%;
+            background-color: yellow;
+            margin: 0 auto;
+            border-radius: 24px;
+            .home-header-banner-search-center-left {
+                padding: 0 12px;
+            }
+            .home-header-banner-search-center-right {
+                width: 400px;
+                .home-header-banner-search-center-right-input {
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        .home-header-banner-search-bottom {
+            margin-top: 60px;
+            width: 100%;
+            .home-header-banner-search-bottom-list {
+                list-style: none;
+                width: 100%;
+                display: flex;
+                justify-content:center;
+                .home-header-banner-search-bottom-item-link {
+                    text-decoration: none;
+                    .home-header-banner-search-bottom-item-link-img {
+                        width: 108px;
+                        height: 32px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+        
+    }
+    .home-header-banner-medical-services {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 1.2));
+        margin-top: 40px;
+        padding: 0 56px;
+        height: 60px;
+        margin-bottom: 80px;
+        .home-header-banner-medical-services-list {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            .home-header-banner-medical-services-item{
+                width: 100px;
+                .home-header-banner-medical-services-item-link {
+                    text-decoration: none;
+                    height: 100%;
+                    .home-header-banner-medical-services-item-link-img-container {
+                        margin: 0 auto;
+                        width: 50px;
+                        height: 50px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .home-header-banner-medical-services-item-link-img {
+                            width: 70%;
+                        }
+                    }
+                    .home-header-banner-medical-services-item-link-content {
+                        text-align: center;
+                        width: 100%;
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 600;
+                    }
+                }
+                .home-header-banner-medical-services-item-link:hover .home-header-banner-medical-services-item-link-content{
+                    color: #45c3d2;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .home-header-banner {
+        .home-header-banner-medical-services {
+            width: 100vw;
+            padding: 0 80px 0 40px;
+        }
+    }
+}
+
+
+

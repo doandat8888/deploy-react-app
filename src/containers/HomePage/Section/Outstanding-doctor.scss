@@ -1,0 +1,55 @@
+.section-doctor {
+    height: 302px !important;
+    background: #f5f5f5;
+    margin: 0 100px;
+    margin-bottom: 60px;
+    
+
+    .doctor-content-title {
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    .doctor-content-body {
+        width: 266px !important;
+        height: 233px !important;
+        padding: 10px 5px;
+        margin: 5px;
+        text-align:center;
+        .doctor-content-body-img {
+            width: 120px;
+            height: 120px;
+            margin: auto auto;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .doctor-content-body-text {
+            padding-top: 8px;
+            cursor: pointer;
+        }
+        .doctor-content-body-text:hover {
+            color: #45c3d2;
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 750px){
+    .section-doctor {
+        margin: 8px;
+        .doctor-content {
+            .doctor-content-body {
+                img {
+                    margin: 0px;
+                }
+                .doctor-content-body-text {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+
+

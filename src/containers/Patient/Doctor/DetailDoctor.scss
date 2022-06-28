@@ -1,0 +1,70 @@
+.detail-doctor-container {
+    .fb-comments {
+        margin: 0 80px;
+    }
+    padding: 40px 0px;
+    .detail-doctor-container-header {
+        padding: 0 100px;
+        display: flex;
+        margin-bottom: 30px;
+        .detail-doctor-container-header-left {
+            margin-right: 20px;
+            .detail-doctor-container-header-left-img {
+                border-radius: 50%;
+                width: 120px;
+                height: 120px;
+            }
+        }
+        .detail-doctor-container-header-right {
+            .detail-doctor-container-header-right-top p{
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+    }
+.detail-doctor-container-detail {
+        margin-top: 60px;
+        padding: 20px 100px;
+        background-color: #f9f9f9;
+        border-top: 1px solid #ccc;
+    }
+    .detail-doctor-container-schedule {
+        display: flex;
+        margin: 0 100px;
+        .detail-doctor-container-schedule-left {
+            width: 50%;
+        }
+        .detail-doctor-container-schedule-right {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1058px){
+
+    .detail-doctor-container {
+        .fb-comments {
+            margin: 0px;
+        }
+        .detail-doctor-container-header {
+            padding: 4px;
+            .detail-doctor-container-header-right {
+                width: 260px;
+            }
+        }
+        .detail-doctor-container-schedule {
+            display: block;
+            margin: 4px;
+            .detail-doctor-container-schedule-left {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            .detail-doctor-container-schedule-right {
+                width: 100%;
+            }
+        }
+        .detail-doctor-container-detail {
+            padding: 4px;
+        }
+    }
+}

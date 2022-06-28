@@ -1,0 +1,21 @@
+.doctor-profile-container {
+    margin-top: 12px;
+    .doctor-profile-container-content {
+        display: flex;
+        .doctor-profile-container-content-description-header {
+            font-weight: bold;
+        }
+    }
+    .doctor-profile-container-content-img {
+        margin-left: 16px;
+        margin-right: 16px;
+        .doctor-profile-container-content-img-content {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    }
+    .doctor-profile-container-price {
+        margin: 8px 16px;
+    }
+}

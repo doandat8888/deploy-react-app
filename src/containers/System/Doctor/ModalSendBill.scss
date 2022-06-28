@@ -1,0 +1,17 @@
+.modal-send-bill-container {
+    .modal-send-bill-header {
+        background-color: #0071ba;
+        //font-size: 12px;
+        color: #fff;
+        .modal-send-bill-header-btn-del {
+            right: 0;
+        }
+    }
+    .modal-send-bill-body {
+        display: flex;
+        .modal-send-bill-body-left {
+            width: 50%;
+            margin-right: 12px;
+        }
+    }
+}

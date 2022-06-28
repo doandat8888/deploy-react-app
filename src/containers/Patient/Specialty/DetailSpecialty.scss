@@ -1,0 +1,67 @@
+.detail-specialty-containter {
+    background-color: #ededec;
+    //background-image: url('https://bookingcare.vn/assets/anh/bookingcare-cover-4.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1), url());
+    .detail-specialty-containter-content {
+        margin: 0 80px;
+        .detail-specialty-containter-header {
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: #333;
+            font-weight:600;
+            margin-bottom: 40px;
+        }
+        .detail-specialty-containter-top {
+            
+        }
+        .detail-specialty-containter-bottom {
+            padding: 0 0 40px 0;
+            .detail-specialty-containter-bottom-title {
+                margin: 40px 0;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+            .detail-specialty-containter-bottom-list {
+                margin: 40px 0 0 0;
+                padding: 10px;
+                border: 1px solid #d6d6d6;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 1px 6px #20212447;
+                display: flex;
+                .detail-specialty-containter-bottom-item {
+                    width: 50%;
+                    .detail-specialty-containter-bottom-item-top {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .detail-specialty-containter-bottom-select {
+                outline: none;
+                padding: 4px;
+                border-radius: 3px;
+                border: none;
+                
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1058px){
+    .detail-specialty-containter {
+        .detail-specialty-containter-content {
+            margin: 4px;
+            .detail-specialty-containter-bottom {
+                .detail-specialty-containter-bottom-list {
+                    display: block;
+                    .detail-specialty-containter-bottom-item {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+

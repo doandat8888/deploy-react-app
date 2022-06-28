@@ -1,0 +1,58 @@
+.manage-schedule-container {
+    .manage-schedule-container-title {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+    .manage-schedule-container-users-table {
+        margin: 0 100px;
+    }
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.btn-action {
+    border: none;
+    outline: none;
+    width: 40px;
+    background-color: transparent !important;
+}
+
+.icon-pencil {
+    color: #ffff07;
+}
+
+.icon-trash {
+    color: red;
+}
+
+.booking-table-btn {
+    display: flex;
+    .btn-warning {
+        margin-right: 8px;
+    }
+}

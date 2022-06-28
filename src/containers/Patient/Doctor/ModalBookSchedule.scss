@@ -1,0 +1,78 @@
+.modal-book-schedule-container {
+    .modal-book-schedule-content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .modal-book-schedule-header {
+            display: flex;
+            padding: 12px;
+            background-color: #45c3d2;
+            .modal-book-schedule-header-left {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                .modal-book-schedule-header-left-content {
+                    font-weight: bold;
+                }
+            }
+            .modal-book-schedule-header-right {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .modal-book-schedule-header-right-icon {
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+
+        .modal-book-schedule-body {
+            height: 100%;
+            .modal-book-schedule-body-book {
+                padding: 0 16px;
+            }
+            .modal-book-schedule-body-price {
+                margin: 16px;
+            }
+        }
+
+        .modal-book-schedule-footer {
+            padding: 12px;
+            display: flex;
+            justify-content: flex-end;
+            .modal-book-schedule-footer-button-confirm {
+                border: none;
+                outline: none;
+                background-color: yellow;
+                margin-right: 8px;
+                width: 100px;
+                padding: 4px;
+            }
+            .modal-book-schedule-footer-button-delete {
+                border: none;
+                outline: none;
+                background-color: grey;
+                margin-right: 8px;
+                width: 80px;
+                padding: 4px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1058px){
+    .modal-book-schedule-container {
+        .modal-book-schedule-content {
+            .modal-book-schedule-header {
+                .modal-book-schedule-header-left {
+                    width: 60%;
+                }
+            }
+        }
+    }
+    
+}

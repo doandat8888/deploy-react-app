@@ -1,0 +1,72 @@
+.doctor-infor-extra-container-title {
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+}
+.doctor-infor-extra-clicic-name {
+    margin: 4px 0;
+    font-weight: bold;
+}
+
+.doctor-infor-extra-clicic-address {
+    margin: 4px 0;
+}
+
+.doctor-infor-extra-clicic-price-false {
+    margin: 16px 0;
+    
+    .doctor-infor-extra-clicic-price-false-content {
+        color: #666;
+        font-weight: bold;
+    }
+    .doctor-infor-extra-clicic-price-more {
+        color: #45cee6;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+}
+
+.doctor-infor-extra-clicic-price-true {
+    margin: 16px 0;
+    .doctor-infor-extra-clicic-price-true-header {
+        color: #666;
+        font-weight: bold;
+    }
+    .doctor-infor-extra-clicic-price-true-body {
+        .doctor-infor-extra-clicic-price-true-body-top {
+            margin: 4px 0;
+            width: 100%;
+            display: flex;
+            .doctor-infor-extra-clicic-price-true-body-top-left {
+                width: 50%;
+                height: 36px;
+                display: flex;
+                align-items: center;
+                border: 1px solid #ddd;
+                padding: 8px 0;
+            }
+            .doctor-infor-extra-clicic-price-true-body-top-right {
+                height: 36px;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                border: 1px solid #ddd;
+            }
+        }
+        .doctor-infor-extra-clicic-price-true-body-bottom {
+            margin: 4px 0;
+            height: 32px;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+    .doctor-infor-extra-clicic-price-hide {
+        color: #45cee6;
+        cursor: pointer;
+    }
+}
